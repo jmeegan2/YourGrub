@@ -12,14 +12,15 @@
     "color_body_text": "#403b37",
     "color_footer_text": "#403b37",
     "color_footer_social_link": "#403b37",
-    "type_base_family": "pt_sans_n4",
+    "type_base_family": "playfair_display_n4",
     "type_base_size": "16px",
-    "type_header_family": "optima_nova_n7",
+    "type_header_family": "playfair_display_n4",
     "type_header_size": "32px",
-    "type_accent_family": "optima_nova_n4",
+    "type_accent_family": "playfair_display_n4",
     "type_accent_size": "16px",
     "type_accent_transform": true,
     "type_accent_spacing": true,
+    "social_instagram_link": "https:\/\/www.instagram.com\/youfoodz",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
@@ -107,23 +108,10 @@
               "button_label": "",
               "button_link": ""
             }
-          },
-          "slider-1": {
-            "type": "image",
-            "settings": {
-              "alignment": "center center",
-              "overlay_opacity": 30,
-              "color_text": "#ffffff",
-              "text_alignment": "center",
-              "slide_heading": "Image slide",
-              "button_label": "",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
-          "slider-0",
-          "slider-1"
+          "slider-0"
         ],
         "settings": {
           "slider_height": "small",
@@ -153,11 +141,12 @@
       "feature-row-0": {
         "type": "feature-row",
         "settings": {
+          "image": "shopify:\/\/shop_images\/Happy_White_lady.jpg",
           "layout": "right",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
-          "button_link": ""
+          "title": "Why YourGrub?",
+          "text": "<p>Ready-made meals, snacks & drinks using locally sourced produce<\/p><p>Prepared fresh by chefsClean, balanced & relaxed calorie options<\/p><p>Free Next Day Delivery*<\/p><p>Best meals or it’s free<\/p><p>No lock-in contracts<\/p>",
+          "button_label": "Shop Our Menu",
+          "button_link": "shopify:\/\/collections\/all"
         }
       },
       "feature-row-1": {
@@ -238,7 +227,7 @@
           "16314227954862fea0-3"
         ],
         "settings": {
-          "title": "Collection list"
+          "title": "What Our Customers say"
         }
       },
       "cart-template": {
