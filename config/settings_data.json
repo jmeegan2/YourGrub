@@ -1,22 +1,22 @@
 {
   "current": {
     "enable_wide_layout": true,
-    "color_topbar_bg": "#f1ebe6",
+    "color_topbar_bg": "#6bb427",
     "color_body_bg": "#ffffff",
     "color_footer_bg": "#ffffff",
     "color_borders": "#dddddd",
-    "color_primary": "#f25c54",
+    "color_primary": "#6bb427",
     "color_button_primary_text": "#ffffff",
     "color_topbar_text": "#000000",
     "color_header_text": "#403b37",
     "color_body_text": "#403b37",
     "color_footer_text": "#403b37",
     "color_footer_social_link": "#403b37",
-    "type_base_family": "playfair_display_n4",
+    "type_base_family": "helvetica_n4",
     "type_base_size": "16px",
-    "type_header_family": "playfair_display_n4",
+    "type_header_family": "helvetica_n7",
     "type_header_size": "32px",
-    "type_accent_family": "playfair_display_n4",
+    "type_accent_family": "helvetica_n4",
     "type_accent_size": "16px",
     "type_accent_transform": true,
     "type_accent_spacing": true,
@@ -48,9 +48,9 @@
           "header_search_enable": true,
           "logo_max_width": "450",
           "nav_menu": "main-menu",
-          "nav_below_logo": false,
+          "nav_below_logo": true,
           "left_aligned_logo": true,
-          "show_header_lines": true,
+          "show_header_lines": false,
           "show_announcement": true,
           "header_text": "Announce something here",
           "announcement_link": ""
@@ -105,8 +105,8 @@
               "color_text": "#ffffff",
               "text_alignment": "left",
               "slide_heading": "Healthy Eating Starts Here",
-              "button_label": "",
-              "button_link": ""
+              "button_label": "Shop Now",
+              "button_link": "shopify:\/\/collections\/all"
             }
           }
         },
@@ -149,16 +149,6 @@
           "button_link": "shopify:\/\/collections\/all"
         }
       },
-      "feature-row-1": {
-        "type": "feature-row",
-        "settings": {
-          "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
-          "button_link": ""
-        }
-      },
       "map": {
         "type": "map",
         "settings": {
@@ -192,44 +182,6 @@
           "center_grid_link": false
         }
       },
-      "16314227954862fea0": {
-        "type": "collection-list",
-        "blocks": {
-          "16314227954862fea0-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "productz"
-            }
-          },
-          "16314227954862fea0-1": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          },
-          "16314227954862fea0-2": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          },
-          "16314227954862fea0-3": {
-            "type": "collection",
-            "settings": {
-              "collection": ""
-            }
-          }
-        },
-        "block_order": [
-          "16314227954862fea0-0",
-          "16314227954862fea0-1",
-          "16314227954862fea0-2",
-          "16314227954862fea0-3"
-        ],
-        "settings": {
-          "title": "What Our Customers say"
-        }
-      },
       "cart-template": {
         "type": "cart-template",
         "settings": {
@@ -240,10 +192,7 @@
     "content_for_index": [
       "slider",
       "featured-collection",
-      "feature-row-0",
-      "feature-row-1",
-      "map",
-      "16314227954862fea0"
+      "feature-row-0"
     ]
   },
   "presets": {
